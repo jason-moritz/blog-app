@@ -8,5 +8,6 @@ router.get('/posts', controllers.getPosts)
 // router.post('/posts', controllers.createPost)
 // router.put('/posts/:id', controllers.updatePost)
 // router.delete('/posts/:id', controllers.deletePost)
+// test
 
 export default router
