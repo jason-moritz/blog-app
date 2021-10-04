@@ -9,7 +9,7 @@ const posts = [...Array(50)].map((post) => {
 
     return {
     title: faker.lorem.sentence(),
-    author: faker.name(),
+    author: faker.name.findName(),
     imgURL: faker.internet.url(),
     article: faker.lorem.paragraph()
     }
