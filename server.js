@@ -15,8 +15,8 @@ app.use(logger('dev'));
 app.use('/api', postsRoutes);
 
 db.on('connected', () => {
-    console.log('Connected to MongoDB')
+    console.log('You are quite good at turning me on ;) Connected to MongoDB!')
     app.listen(PORT, () => {
-	console.log(`Expres server listening on port ${PORT}`);
+	console.log(`Express server listening on port ${PORT}`);
 	});
 })
