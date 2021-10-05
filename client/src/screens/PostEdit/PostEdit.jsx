@@ -16,7 +16,7 @@ const PostEdit = (props) => {
   let { id } = useParams();
 
   useEffect(() => {
-    const fetchProduct = async () => {
+    const fetchPost = async () => {
       const post = await getPost(id);
       setPost(post);
     };
