@@ -69,7 +69,7 @@ const Posts = () => {
           return (
             <Post
               _id={post._id}
-              name={post.title}
+              title={post.title}
               author={post.author}
               imgURL={post.imgURL}
               article={post.article}
