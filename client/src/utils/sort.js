@@ -14,4 +14,4 @@ const compareKey = (key) => (a, b) => {
 export const TitleAZ = (arr) => arr.sort(compareKey("title"));
 export const TitleZA = (arr) => arr.sort(compareKey("title")).reverse();
 export const AuthorAZ = (arr) => arr.sort(compareKey("author"));
-export const AuthorAZ = (arr) => arr.sort(compareKey("author")).reverse();
+export const AuthorZA = (arr) => arr.sort(compareKey("author")).reverse();
