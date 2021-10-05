@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import "./Products.css";
+import "./Posts.css";
 
 import Post from "../../components/Post/Post";
 import Search from "../../components/Search/Search";
-import { TitleAZ, TitleZA, AuthorAZ, AuthorAZ } from "../../utils/sort";
+import { TitleAZ, TitleZA, AuthorAZ, AuthorZA } from "../../utils/sort";
 import Sort from "../../components/Sort/Sort";
 import Layout from "../../components/Layout/Layout";
 import { getPosts } from "../../services/posts";
@@ -38,7 +38,7 @@ const Posts = () => {
         setSearchResult(AuthorAZ(searchResult));
         break;
       case "author-descending":
-        setSearchResult(AuthorAZ(searchResult));
+        setSearchResult(AuthorZA(searchResult));
         break;
       default:
         break;
