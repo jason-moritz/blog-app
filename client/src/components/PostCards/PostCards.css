@@ -17,7 +17,7 @@
 }
 
 @media (max-width: 500px) {
-    .product-cards {
+    .post-cards {
         width: 90vw;
         padding: 20px;
         margin: 0px;
@@ -26,3 +26,4 @@
         margin: 0 -20px;
     }
 }
+
