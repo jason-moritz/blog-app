@@ -1,11 +1,4 @@
 # git-group-practice
 
-
-Test from Nathan
-
-
-here are the changes within my readMe
-
-Hello you cool cats!
-
-
+[Heroku Link](https://lukewarmblogs.herokuapp.com/api/posts "Heroku Link")
+[Netlify](https://nifty-mestorf-54b594.netlify.app/ "Netlify Link")
